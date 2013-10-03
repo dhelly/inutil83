@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<books>
+    <book title="Inelegibilidade Decorrente de Contas Públicas" imageurl="./images/livro/l1.jpg">
+    <description>
+   Este livro  é o único a focalizar, de forma didática e organizada, o Direito Eleitoral na perspectiva da repercussão dos julgamentos administrativos dos 34 Tribunais de Contas brasileiros no instituto da inelegibilidade, com legislação e vasta jurisprudência atualizada dos 27 Tribunais Regionais Eleitorais e do Tribunal Superior Eleitoral, até as últimas eleições municipais de 2008, quando foram ajuizados quase 400.000 pedidos de registros de candidaturas a cargos eletivos na Justiça Eleitoral.
+    </description>
+    </book>
+
+    <book title="LEI DE ACESSO À INFORMAÇÃO: CARTILHA DE ORIENTAÇÃO AO CIDADÃO " imageurl="./images/livro/l2.jpg">
+    <description>
+    Guia destinado ao cidadão para divulgar as novas determinações trazidas pela Lei nº 12.527, de 2011, em vigor a partir de 16 de maio de 2012. Destaca os principais pontos da norma, e apresenta orientações sobre como acessar as diversas informações do portal da Câmara dos Deputados e os canais de interação que a Casa mantém com o cidadão.
+    </description>
+    </book>
+
+    <book title="Crime Organizado" imageurl="./images/livro/l3.jpg">
+    <description>
+    Estabelecendo um intercâmbio entre as diferentes esferas de combate ao crime organizado, esta obra oferece 35 artigos elaborados por profissionais que se encontram no "front de batalha", como promotores de justiça, juízes, advogados e delegados de polícia. Como resultado, tem-se um verdadeiro inventário teórico-prático do estado atual..
+    </description>
+    </book>
+</books>

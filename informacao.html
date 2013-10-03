@@ -1,9 +1,9 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"[]>
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"[]>
 <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" xml:lang="en">
 <head>
  
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Site Inútil de Contas Públicas</title>
+    <title>Site Inutil</title>
     <meta name="description" content="Description" />
     <meta name="keywords" content="Keywords" />
 
@@ -11,14 +11,14 @@
     <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
 	<link href="css/koottam.css" rel="stylesheet"/>	
 	<link href="css/meu.css" rel="stylesheet"/>	
-	
+    
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
-    <script type="text/javascript" src="js/koottam.js"></script>
-    <script type="text/javascript" src="js/jcarousellite.js"></script>
-    <script type="text/javascript" src="js/easing.js"></script>
-    <script type="text/javascript" src="js/images.js"></script>
-    
+    <script type="text/javascript" src="js/koottam.js"></script>  
+    <script type="text/javascript" src="js/ajax.js"></script> 
+    <script type="text/javascript" src="js/table.js"></script>    
+
+
 	
 </head>
 <body>
@@ -56,7 +56,7 @@
 		<div class="art-header-inner">
 			<div class="art-headerobject"></div>
 			<div class="art-logo">
-					 <h1 class="art-logo-name"><a href="./index.html">Site Inútil de Contas Públicas</a></h1>
+					  <h1 class="art-logo-name"><a href="./index.html">Site Inútil de Contas Públicas</a></h1>
 					 <h2 class="art-logo-text">Porquê o Facebook está destruindo o Mundo!</h2>
 			</div>
 		</div>
@@ -90,49 +90,17 @@
 		<div class="art-post-body">
 			<div class="art-post-inner art-article">
 				<h2 class="art-postheader">
-					<img src="./images/postheadericon.png" width="22" height="21" alt="" />Controle de Contas Públicas
+					<img src="./images/postheadericon.png" width="22" height="21" alt="" />Outras Informações
 				</h2>
 				
 				<div class="cleared"></div>
 				<div class="art-postcontent">
+                <div class="ajax"></div>
 					
-				
-				<!-- Inicio do carrossel-->					
-				<div id="carrousel">		
-					<div class="slide">
-						<ul>
-							<li>
-								<a href="http://www.portaltransparencia.gov.br/"><img src="./images/carrossel/slide1.png"></a>
-								<h1>Portal da transparência</h1>
-								<p>O Use a pesquisa para encontrar dados detalhados sobre a execução orçamentária e financeira do governo federal, com possibilidade de pesquisar informações por dia e pela fase de despesa (empenho, liquidação ou pagamento). A atualização dos dados é diária. </p>
-							</li>
-							<li>
-								<a href="http://portal.tce.pb.gov.br/aplicativos/sagres/"><img src="./images/carrossel/slide2.png"></a>
-								<h1>Sagres -PB</h1>
-								<p>O TCE no exercício de sua competência possibilita o controle social ao pôr em prática o princípio da transparência e disponibiliza, neste espaço, as principais informações relativas à gestão pública fornecidas pelos respectivos gestores, sem que sobre ela haja emitido qualquer juízo de valor.
-</p>
-							</li>
-							<li>
-								<a href="http://www.transparencia.org.br/"><img src="./images/carrossel/slide3.png"></a>
-								<h1>Transparência.org</h1>
-								<p>Vários projetos da Transparência Brasil se baseiam no incremento do acesso a informação. As diversas ferramentas ajudam cidadãos, a imprensa, ONGs, organismos acadêmicos e órgãos de controle do Estado a exercer o monitoramento das instituições. Clique na área de cada uma para visitar e usar.
-							</li>
-							<li>
-								<a href="http://portal2.tcu.gov.br/portal/page/portal/TCU/transparencia"><img src="./images/carrossel/slide4.png"></a>
-								<h1>TCU - Transparência</h1>
-								<p>Você tem acesso às informações públicas disponibilizadas pelo TCU em cumprimento à Lei 12.527, a Lei de acesso à informação. No menu lateral estão disponíveis informações sobre as contas do TCU, licitações e contratos, concursos, relatórios e outros temas de interesse da sociedade.</p>
-							</li>
-							<li>
-								<a href="#"><img src="./images/carrossel/slide5.png"></a>
-								<h1>Transparência.org</h1>
-								<p>O Tribunal Superior Eleitoral disponibiliza os dados de prestação de contas dos candidatos. O Sistema de Prestação de Contas Eleitoral (SPCE)é obrigatório, na elaboração da prestação de contas de candidatos, comitês financeiros e partidos políticos.</p>
-							</li>
-						</ul>
-					</div> 
-				</div>
-				<!-- Fim do carrossel-->
-				
-
+				<!-- Carregamento Ajax --> 
+         
+                 
+				<!-- Fim ajax -->
 				</div>
 				<div class="cleared"></div>
 			</div>
@@ -148,15 +116,38 @@
 			<div class="art-blockheader">
 				<div class="l"></div>
 				<div class="r"></div>
-				<h3 class="t">Redes Sociais</h3>
+				<h3 class="t">Outros Sites</h3>
 			</div>
 			<div class="art-blockcontent">
 				<div class="art-blockcontent-body">
-					<!-- Inicio Conteudo do Twitter-->
-					<a class="twitter-timeline"  href="https://twitter.com/Inutil83"  data-widget-id="385207639010861058">Tweets de @Inutil83</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
-					<!-- Fim do Conteudo do Twitter -->
+                  <!-- Outros links-->
+<table class="tabelaEditavel">
+        <thead>
+            <tr>
+                <th>Sites</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href="http://transparencia.joaopessoa.pb.gov.br">Prefeitura de João Pessoa</a></td>
+            </tr>
+            <tr>
+                <td><a href="http://www.siaf.cge.pb.gov.br/SIAFWEBLIVRE/SIAFWEB">Siaf</a></td>
+            </tr>
+            <tr>
+                <td><a href="http://www.cge.pb.gov.br/siga/siga01.asp?pa=cge">SIGA</a></td>
+            </tr>
+            <tr>
+                <td><a href="http://www.centraldecompras.pb.gov.br/">Central de Compras</a></td>
+            </tr>
+        </tbody>
+    </table>
+
+
+     
+				  <!-- Fim do Conteudo doação -->  
+					
 					               
 					<div class="cleared"></div>
 				</div>
